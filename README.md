@@ -1,12 +1,13 @@
 # Cracking the Code of Indian Food
-###  Food Nutrition analysis of 528 key foods in India.
+###  This project aims to analyze the nutritional content of 528 key Indian foods using the IFCT (Indian Food Composition Tables) data. By uncovering hidden gems within these foods, we hope to gain insights into their health benefits and cultural significance.
 
- Cracking the Code of Indian Food:  The Indian food scene is a kaleidoscope of flavors, but beneath the surface lies a complex web of nutrients waiting to be explored. I'm using the IFCT data as my Rosetta Stone, deciphering the nutritional profiles of these foods and uncovering hidden gems.
+Indian cuisine is incredibly diverse, influenced by regional variations, social practices, and cultural norms. Understanding the nutritional aspects of these foods can help us make informed dietary choices and appreciate the richness of Indian culinary traditions.
 
 The Data: 
 ===
-National Institue of Nutrition, Hydrabad Publishes IFCT(Indian Food Composition Tables).
-IFCT is a comprehensive database of the nutritional content of Indian foods. The latest edition, IFCT 2017, analyzed 528 key foods from across the country, providing data on 151 nutrients, including bioactive compounds. Using this Data, I will Try to Come up With Key Insights that the data tells.
+The IFCT 2017 dataset, published by the National Institute of Nutrition in Hyderabad, provides detailed nutritional information for 528 essential Indian foods. It covers 151 nutrients, including bioactive compounds.
 
 The [IFCT data](https://vikaspedia.in/health/nutrition/nutritive-value-of-foods/indian-food-composition-tables).
 The Indian Food Composition Tables, 2017 provides nutritional information on 151 discrete food components for 528 key foods.
+
+# Preparing the data
