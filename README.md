@@ -21,3 +21,4 @@ The Indian Food Composition Tables, 2017 provides nutritional information on 151
 -  Simplified Food Name Column by Creating new Column "Food Description" from Food Name column using `str.split()`
 - Renamed cereals & Millets as either Cereals or Milltes next to respective food name to impove the data analysis by creating cereal dictionary and millets dictonary and replacing the food group respectively using `np.where` & `isin()` Methods.
 # Summary of Data Analysis.
+- Summarizing the data- no. of food in each group
