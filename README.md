@@ -38,3 +38,10 @@ The Indian Food Composition Tables, 2017 provides nutritional information on 151
 - ![food group_calories](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/Calories_foodsgroups.png)
 - Nuts & oil Seeds, Millets, Cereals & legumes are rich source of energy.
 - subset of the data was created using the `groupby` function, and the data from this subset was then visualized using the `plot` function.
+# Moisture Content
+- ![moisture_food_group](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/moisture_food_group1.png)
+- Coconut water and toddy are the foods in miscellenaous food group.
+- Apart from it vegetables are rich source of moisture followed by marine animal, Cereals , legumes and Nuts have lowest moisture content.
+- A subset of the data was created using the `groupby` function, and the data from this subset was then visualized using the `sns.barplot` function. The mean moisture content was identified using the `mean()` function.
+- A vertical line depicting the mean moisture was plotted using `plt.axvline`, and it was labeled using `plt.text`. Parameters for the location of the line, text location, and text contents were passed into these functions.
+- 
