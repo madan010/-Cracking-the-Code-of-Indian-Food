@@ -21,4 +21,10 @@ The Indian Food Composition Tables, 2017 provides nutritional information on 151
 -  Simplified Food Name Column by Creating new Column "Food Description" from Food Name column using `str.split()`
 - Renamed cereals & Millets as either Cereals or Milltes next to respective food name to impove the data analysis by creating cereal dictionary and millets dictonary and replacing the food group respectively using `np.where` & `isin()` Methods.
 # Summary of Data Analysis.
-- Summarizing the data- no. of food in each group
+## Summarizing the data- no. of food in each group
+- ![No of Food](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/Distribution%20of%20Food%20Groups.png)
+- The IFCT has more than 90 Fish varieties nutritional data. The foods have been divided to 19 food groups.
+- I used the `value_counts()` method to get the count in each food group. I then chained the `plot()` method to visualize the distribution. I passed `‘bar’` to the `kind` parameter to create a bar chart.
+- ## Summerizing Nutritional Data.
+-  ![Nutritional Data](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/Average_Nutrient_Content_in_Different_Food_Groups1.png)
+-The chart clearly illustrates that animal-based diets are abundant in proteins and fats, while plant-based diets predominantly consist of carbohydrates. Furthermore, it underscores the versatility of plant-based foods in terms of their nutritional composition.  
