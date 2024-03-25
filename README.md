@@ -28,5 +28,13 @@ The Indian Food Composition Tables, 2017 provides nutritional information on 151
 - ## Summerizing Nutritional Data.
 -  ![Nutritional Data](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/Average_Nutrient_Content_in_Different_Food_Groups3.png)
 - The chart clearly illustrates that moisture makes most of the food. Animal-based diets are abundant in proteins and fats, while plant-based diets predominantly consist of carbohydrates and Dietry Fiber.
-- created a subset of dataframe then grouped by food grouped and the mean of the nutritional components.
-- Created a stacked bar chart by setting the following parameters: `kind` as bar setting the `stacked` parameter to True 
+- I created a subset of the DataFrame, grouped it by food categories, and calculated the mean of the nutritional components.
+- I generated a stacked bar chart by setting the kind parameter to ‘bar’ and the stacked parameter to True.
+# Calories
+## Food with most calories
+- ![calories](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/high_calories.png)
+- Walnut is the most calorie rich food. Nuts are rich in energy followed by condiments. Chicken is the only animal based food in the list of top foods with highest energy.
+- A subset of the data was created and sorted in descending order using `sort_values` and setting `ascending` parameter as `False`. This data was then used to plot a chart using the Seaborn library’s `sns.barplot` function, with the `hue` parameter set to represent different food groups.
+- ![food group_calories](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/Calories_foodsgroups.png)
+- Nuts & oil Seeds, Millets, Cereals & legumes are rich source of energy.
+- subset of the data was created using the `groupby` function, and the data from this subset was then visualized using the `plot` function.
