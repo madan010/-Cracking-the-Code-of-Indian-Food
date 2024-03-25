@@ -27,4 +27,4 @@ The Indian Food Composition Tables, 2017 provides nutritional information on 151
 - I used the `value_counts()` method to get the count in each food group. I then chained the `plot()` method to visualize the distribution. I passed `‘bar’` to the `kind` parameter to create a bar chart.
 - ## Summerizing Nutritional Data.
 -  ![Nutritional Data](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/Average_Nutrient_Content_in_Different_Food_Groups1.png)
--The chart clearly illustrates that animal-based diets are abundant in proteins and fats, while plant-based diets predominantly consist of carbohydrates. Furthermore, it underscores the versatility of plant-based foods in terms of their nutritional composition.  
+- The chart clearly illustrates that animal-based diets are abundant in proteins and fats, while plant-based diets predominantly consist of carbohydrates. Furthermore, it underscores the versatility of plant-based foods in terms of their nutritional composition.  
