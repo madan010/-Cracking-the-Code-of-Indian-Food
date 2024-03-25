@@ -26,5 +26,7 @@ The Indian Food Composition Tables, 2017 provides nutritional information on 151
 - The IFCT has more than 90 Fish varieties nutritional data. The foods have been divided to 19 food groups.
 - I used the `value_counts()` method to get the count in each food group. I then chained the `plot()` method to visualize the distribution. I passed `‘bar’` to the `kind` parameter to create a bar chart.
 - ## Summerizing Nutritional Data.
--  ![Nutritional Data](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/Average_Nutrient_Content_in_Different_Food_Groups1.png)
-- The chart clearly illustrates that animal-based diets are abundant in proteins and fats, while plant-based diets predominantly consist of carbohydrates. Furthermore, it underscores the versatility of plant-based foods in terms of their nutritional composition.  
+-  ![Nutritional Data](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/Average_Nutrient_Content_in_Different_Food_Groups3.png)
+- The chart clearly illustrates that moisture makes most of the food. Animal-based diets are abundant in proteins and fats, while plant-based diets predominantly consist of carbohydrates and Dietry Fiber.
+- created a subset of dataframe then grouped by food grouped and the mean of the nutritional components.
+- Created a stacked bar chart by setting the following parameters: `kind` as bar setting the `stacked` parameter to True 
