@@ -1,12 +1,12 @@
 # Cracking the Code of Indian Food
 
-This project aims to analyze the nutritional content of 528 key Indian foods using the IFCT (Indian Food Composition Tables) data. By uncovering hidden gems within these foods, to gain insights into their health benefits and cultural significance.
+This project aims to analyze the nutritional content of 528 key Indian foods using the IFCT (Indian Food Composition Tables) data. By uncovering Nutritional Informatiion within these foods, to gain insights into their health benefits and cultural significance.
 
 Indian cuisine is incredibly diverse, influenced by regional variations, social practices, and cultural norms. Understanding the nutritional aspects of these foods can help us make informed dietary choices and appreciate the richness of Indian culinary traditions.
 
 The Data: 
 ===
-The IFCT 2017 dataset, published by the National Institute of Nutrition in Hyderabad, provides detailed nutritional information for 528 essential Indian foods. It covers 151 nutrients, including bioactive compounds.
+The IFCT 2017 dataset, published by the National Institute of Nutrition in Hyderabad, provides detailed nutritional information for 528 essential Indian foods across India. It covers 151 nutrients, including bioactive compounds.
 
 The [IFCT data](https://vikaspedia.in/health/nutrition/nutritive-value-of-foods/indian-food-composition-tables).
 The Indian Food Composition Tables, 2017 provides nutritional information on 151 discrete food components for 528 key foods.
@@ -30,6 +30,11 @@ The Indian Food Composition Tables, 2017 provides nutritional information on 151
 - The chart clearly illustrates that moisture makes most of the food. Animal-based diets are abundant in proteins and fats, while plant-based diets predominantly consist of carbohydrates and Dietry Fiber.
 > this was done by creating a subset of the dataframe, grouped it by food categories, and calculated the mean of the nutritional components.
 > I generated a stacked bar chart by setting the kind parameter to `bar` and the `stacked` parameter to `True`.
+# Food Type Nutrition
+- ![food type nutrition](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/food_type_.png)
+- From the chart above, it is evident that moisture is the most abundant component in both vegetarian and non-vegetarian foods.
+- It can be inferred that vegetarian food is more diverse in terms of nutritional composition as compared to non-vegetarian foods.
+> Subset of the data was created and grouped using `groupby()` . Grouped by "Food Type" column and the average of the nutrition was used to create a stacked bar chart using `stacked` paramter of `.plot()` function.
 # Calories
 ## Food with most calories
 - ![calories](https://github.com/madan010/-Cracking-the-Code-of-Indian-Food/blob/main/high_calories.png)
